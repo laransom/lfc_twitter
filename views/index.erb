@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Liverpool Tweets</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+  <h1>LFC for Lifezzzz</h1>
+  <table border="1" style="width:300">
+    <tr>
+      <th>Tweets</th>
+    </tr>
+
+    <%@tweets.each do |tweet| %>
+    <tr>
+      <td><%= tweet %></td>
+    </tr>
+    <% end %>
+  </table>
+</html>
