@@ -1,0 +1,29 @@
+
+body {
+  margin:50px 0; padding:0;
+  text-align:center;
+  background:url('images/anfield.jpg') no-repeat center center fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+h1 {
+  color: red;
+  font-size: 250%;
+  background-color: black;
+}
+
+table {
+  margin: 0 auto;
+}
+
+blockquote {
+  margin: 0 auto;
+}
+
+
+h2 {
+  color: red;
+}

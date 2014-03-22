@@ -6,16 +6,17 @@
   </head>
 
   <body>
-  <h1>LFC for Lifezzzz</h1>
-  <table border="1" style="width:300">
-    <tr>
-      <th>Tweets</th>
-    </tr>
+    <h1>Make Us Dream!!<br>LFC Optimism Meter</h1>
 
+    <big><meter value= "<%=@rating %>" min="0" max="100"></meter><br></big>
+
+    <h2><%= @rating %>%</h2>
+
+    <h2>What people are saying:</h2>
     <%@tweets.each do |tweet| %>
-    <tr>
-      <td><%= tweet %></td>
-    </tr>
+    <blockquote class="twitter-tweet tw-align-center" data-link-color="#cc0000" data-theme="dark"><%= format_tweet(tweet) %></blockquote>
     <% end %>
-  </table>
+
+
+  </body>
 </html>
