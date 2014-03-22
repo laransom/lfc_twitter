@@ -1,7 +1,4 @@
 source 'https://rubygems.org'
-
-require 'sinatra'
-require 'twitter'
-require 'shotgun'
-require 'pry'
-require 'sad_panda'
+ruby '2.0.0'
+gem 'sinatra'
+gem 'twitter'

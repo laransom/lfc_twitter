@@ -1,6 +1,6 @@
 require 'twitter'
-require 'pry'
-require 'sad_panda'
+
+
 
 
 def tweet_rating(string)

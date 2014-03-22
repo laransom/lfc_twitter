@@ -1,8 +1,7 @@
 require 'sinatra'
-require 'shotgun'
 require 'net/http'
 require 'json'
-require 'pry'
+
 require_relative 'lib/lfc.rb'
 
 get '/' do
