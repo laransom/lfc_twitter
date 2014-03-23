@@ -6,9 +6,9 @@ require 'twitter'
 def tweet_rating(string)
   rating = 0
   if string.split.include?('champions') || string.include?('league title') || string.include?('happy') || string.include?('believe') || string.include?('title') || string.include?('best') || string.include?('greatest') || string.include?('awesome') || string.include?('fantastic') || string.include?('beauty') || string.include?('win') || string.include?('dream')
-    rating = 0.3
+    rating = 0.1
   elsif string.split.include?('loser') || string.include?('gutted') || string.include?('horrible') || string.include?('sad') || string.include?('worst') || string.include?('terrible') || string.include?('bottom') || string.include?('sack') || string.include?('rubbish') || string.include?('tears') || string.include?('forget')
-    rating = - 0.3
+    rating = - 0.1
   end
   if rating > 100
     rating = 100
